@@ -39,7 +39,10 @@ header{
 }
 .logo{
     position: relative;
-    max-width: 150px;
+    max-width: 170px;
+}
+.logo img{
+    width: 130px;
 }
 .navigation ul{
     position: relative;
@@ -59,4 +62,46 @@ header{
 }
 .navigation li a:hover{
     color: #e51e2a;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+    
+}
+.text h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.text h2 span{
+    font-size: 3.5em;
+    color: #e51e2a;
+}
+.text p {
+    color: #fff;
+}
+.text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #e51e2a;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: .3s ease-in-out;
+}
+.text a:hover{
+    transform: translateY(-10px)
 }
