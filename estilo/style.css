@@ -137,3 +137,58 @@ header{
     transform: scale(0.5);
     filter: invert(1);
 }
+.boximg{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.boximg img{
+    width: 150px;
+}
+.img1{
+    transform: rotate(-15deg);
+}
+.img2{
+    transform: rotate(5deg);
+}
+.img3{
+    transform: rotate(15deg);
+}
+.img4{
+    transform: rotate(-15deg);
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    .boximg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 35px;
+    }
+    .boximg img{
+        width: 75px;
+    }
+    .circle{
+        display: none;
+    }
+    .logo{
+    position: relative;
+    max-width: 50px;
+    }
+    .logo img{
+    width: 75px;
+    }
+    .container{
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    }
+    .navigation ul{
+        display: none;
+}
+
+}
